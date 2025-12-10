@@ -1,0 +1,22 @@
+{
+  "name": "web-starter-template",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "browser-sync": "^2.27.7"
+  }
+}
