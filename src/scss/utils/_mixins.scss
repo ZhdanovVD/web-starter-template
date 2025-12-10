@@ -1,0 +1,28 @@
+// Медиа запросы
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Flexbox миксин
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Кнопка
+@mixin button-variant($background, $color) {
+  background-color: $background;
+  color: $color;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($background, 10%);
+  }
+}

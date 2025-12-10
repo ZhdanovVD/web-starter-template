@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(135deg, $primary-color, darken($primary-color, 15%));
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+
+  h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+    
+    @include respond-to($breakpoint-md) {
+      font-size: 3rem;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+}
